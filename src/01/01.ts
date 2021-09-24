@@ -1,4 +1,19 @@
-console.log(1111)
+// tsconfig.json - "isolatedModules": false,
 
-export const value01_01 = "01_01";
+const sentense = "hello my friend";
+
+export function sum(a: number, b: number) {
+  return a + b;
+}
+
+export function mult(a: number, b: number) {
+  return a * b;
+}
+
+export function splitIntoWords(sentense: string) {
+  return sentense.toLowerCase().split(" ");
+}
+
+
+
 
