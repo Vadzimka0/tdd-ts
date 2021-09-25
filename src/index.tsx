@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {value01_01} from "./01/01";
+import {student} from "./02/02";
 
-let a = value01_01;
+let qwe = student;
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
