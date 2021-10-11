@@ -17,18 +17,9 @@ beforeEach(() => {
       }
     },
     technologies: [
-      {
-        id: 1,
-        title: "JS"
-      },
-      {
-        id: 2,
-        title: "CSS"
-      },
-      {
-        id: 3,
-        title: "NodeJS"
-      }
+      {id: 1, title: "JS"},
+      {id: 2, title: "CSS"},
+      {id: 3, title: "NodeJS"}
     ]
   };
 })
