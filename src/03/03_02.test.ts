@@ -1,5 +1,5 @@
 import {CityType} from "./../02/02_02";
-import {addMoneyToBudget, createMessage, repairHose, repairHouse, toFireStaff, toHireStaff, toRecruitStaff} from "./03";
+import {addMoneyToBudget, createMessage, repairHouse, toFireStaff, toHireStaff} from "./03";
 
 let city: CityType;
 
@@ -37,13 +37,13 @@ beforeEach(() => {
         type: "HOSPITAL",
         budget: 200000,
         staffCount: 200,
-        address: {street: {title: "Central Str"}}
+        address: {street: {title: "Central Str"}, number: 12}
       },
       {
         type: "FIRE-STATION",
         budget: 500000,
         staffCount: 1000,
-        address: {street: {title: "South Str"}}
+        address: {street: {title: "South Str"}, number: 12}
       }
     ],
     citizensNumber: 1000000
